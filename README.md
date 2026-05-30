@@ -5,7 +5,8 @@ This project was approached using the regression model and building a neural net
 
 The reason ML was suitable for this problem is that a good number of features with predictive power could be identified. For predicting the score of a fair examination, the amount of effort put in and the past performance of the students were relevant metrics. Regression was a suitable model to predict the numerical value of the score of the student in percentage.
 
-MY APPROACH TO THE PROBLEM AND ITS PERFORMANCE
+*MY APPROACH TO THE PROBLEM AND ITS PERFORMANCE*
+
 Preprocessing Steps:
 -	The data available in the CSV format was first converted to pandas data frames to filter the relevant columns from the data as features and labels.
 -	The features were normalised using a simple Z-score scaling, and the labels were left as they were.
